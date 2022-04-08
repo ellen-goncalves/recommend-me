@@ -1,0 +1,119 @@
+/*margin: 2=top-bottom right-left; 3=top right-left bottom; 4=top right bottom left*/
+/*box-shadow: 0px 8px;  Eixo X e Y tal qual o plano cartesiano, borrado e cor*/
+
+body {
+    background: #e5e5e5;
+    color: #25282b; /*cor da fonte*/
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.hide {
+    display: none;
+}
+a {
+    color: #ff5e84;
+    font-weight: bold;
+    text-decoration: none;  
+  }
+a:hover{
+    color: #777;
+} 
+#container {
+    width: 90%;
+    max-width: 980px;
+    margin: 40px auto;
+    display: flex;
+}
+
+#intro { 
+    width: 50%;
+    margin-right: 20px;
+}
+main {
+    margin: 32px 0; 
+}
+p, .description{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 32px;
+}
+
+footer {
+    text-align: center;
+    
+    font-size: 14px;
+    font-weight: regular;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+}
+button {
+    background: none;
+    color:#ff5e84;
+    border: none;
+    border-radius: 60px 5px;
+    font-weight: bold;
+    cursor: pointer; 
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+}
+
+button:hover{
+    text-decoration: underline;
+
+}
+p {
+    font-size: 18px;
+    text-align: left;
+}
+
+button.fat {
+    font-family: 'Lucida Sans';
+    background-color: #ff5e84;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    box-shadow: 0px 8px 16px rgba(255, 0, 92, 0.16); 
+}
+
+button.fat:hover {
+    text-decoration: none;
+}
+
+.idea {
+    display: flex;
+    margin-bottom: 32px;
+    background-color: #fff;
+    box-shadow: 0 4px 16px -8px rgba(1,1,1,0.1);
+    border-radius: 8px;
+    padding: 32px;
+    
+}
+.idea p{
+    margin: 8px 0;
+    color: #777
+}
+.idea a {
+        
+}
+.idea img{
+    width: 60px;
+    height: 60px;
+    margin-right: 32px;
+}
+.idea h3 {
+    margin: 0;
+}
+
+.idea .description {
+    margin: 16px 0;
+    text-align: left;
+}
+
