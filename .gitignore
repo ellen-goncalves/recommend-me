@@ -1,0 +1,26 @@
+console.log("Hello world!")
+
+const mensagem = "Oi, como vai?"
+const number1 = 2.5
+const number2 = 5
+
+function soma(number1, number2){
+    return number1 + number2
+}
+
+console.log(mensagem)
+
+const resultado = soma(number1, number2)
+console.log(resultado)
+
+//criando objeto no javascript
+const xicara = {
+    cor: "branco",
+    tamanho: 10,
+    estaSujo(simNao){
+        //lógica de programacao
+        return simNao
+    }
+}
+
+console.log(xicara.estaSujo("sim"))

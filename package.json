@@ -1,0 +1,27 @@
+{
+  "name": "recommend-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellen-goncalves/recommend-me.git"
+  },
+  "keywords": [],
+  "author": "Ellen Gonçalves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ellen-goncalves/recommend-me/issues"
+  },
+  "homepage": "https://github.com/ellen-goncalves/recommend-me#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "nunjucks": "^3.2.3",
+    "sqlite3": "^5.0.6"
+  }
+}
