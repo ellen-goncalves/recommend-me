@@ -45,7 +45,7 @@ p, .description{
     border-radius: 30px 5px;
 }
 .button:hover {
-    background-color:#c9ffc052;
+    background-color: #ff7394;
     color: #fff;
     text-decoration: none;
 }
