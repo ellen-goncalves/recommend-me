@@ -67,7 +67,7 @@ server.get("/ideias/:id", function(req, res)  {
 
 server.post("/", function(req, res){
     const query = `INSERT INTO ideas (image, title, category, description, url) VALUES (?,?,?,?,?);`
-    const vals = [
+    const values = [
         req.body.image,
         req.body.title,
         req.body.category,
